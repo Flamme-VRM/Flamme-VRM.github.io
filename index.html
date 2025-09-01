@@ -453,7 +453,7 @@
             <div class="header-content">
                 <div class="name-audio">
                     <h1 class="name">Shyngisbek Asylkhan</h1>
-                    <button class="audio-btn">♪ name.wav</button>
+                    <button class="audio-btn" onclick="playNameAudio()">♪ name.wav</button>
                 </div>
                 <p class="subtitle">Aspiring Back-end/ML researcher & School student</p>
                 <p class="location">📍 Shymkent, Kazakhstan • shyngisbekovasylkhan@gmail.com</p>
@@ -482,7 +482,7 @@
                 </div>
             </div>
             
-            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face" alt="Profile Photo" class="profile-image">
+            <img src="images/profile.jpg" alt="Profile Photo" class="profile-image">
         </header>
 
         <section class="section">
@@ -505,7 +505,7 @@
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-image">
-                        Screenshot: AsylBilim Bot Interface
+                        <img src="images/asylbilim.jpg" alt="AsylBilim Bot Interface" style="width:100%;height:100%;object-fit:cover;">
                     </div>
                     <div class="project-content">
                         <h3 class="project-title">AsylBilim</h3>
@@ -513,11 +513,15 @@
                             Telegram bot that could help you enhance any educational problems, and help you to reach better grades
                         </p>
                         <div class="project-tech">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">Telegram API</span>
-                            <span class="tech-tag">ML</span>
+                            <span class="tech-tag">🐍 Python</span>
+                            <span class="tech-tag">🤖 aiogram</span>
+                            <span class="tech-tag">🧠 Google AI</span>
+                            <span class="tech-tag">💾 Redis</span>
+                            <span class="tech-tag">🔊 Transformers</span>
+                            <span class="tech-tag">⚡ PyTorch</span>
+                            <span class="tech-tag">🔄 asyncio</span>
                         </div>
-                        <div class="project-links">
+                        <div class="project-links" style="margin-top: 15px;">
                             <a href="https://github.com/Flamme-VRM/KazakhBot-v2" class="repo-link" target="_blank">git clone</a>
                         </div>
                     </div>
@@ -525,7 +529,8 @@
 
                 <div class="project-card">
                     <div class="project-image">
-                        Screenshot: Image Upscaler GUI
+                        <img src="images/upscaler.jpg
+                        " alt="Image Upscaler GUI" style="width:100%;height:100%;object-fit:cover;">
                     </div>
                     <div class="project-content">
                         <h3 class="project-title">Image-Upscaler</h3>
@@ -537,7 +542,7 @@
                             <span class="tech-tag">PyQt6</span>
                             <span class="tech-tag">AI</span>
                         </div>
-                        <div class="project-links">
+                        <div class="project-links" style="margin-top: 15px;">
                             <a href="https://github.com/Flamme-VRM/Image-UpscalerPy" class="repo-link" target="_blank">git clone</a>
                         </div>
                     </div>
@@ -545,7 +550,7 @@
 
                 <div class="project-card">
                     <div class="project-image">
-                        Screenshot: KazSTT Model Training
+                        <img src="images/kazstt.svg" alt="KazSTT Model Training" style="width:100%;height:100%;object-fit:cover;">
                     </div>
                     <div class="project-content">
                         <h3 class="project-title">KazSTT</h3>
@@ -557,7 +562,7 @@
                             <span class="tech-tag">Whisper</span>
                             <span class="tech-tag">ASR</span>
                         </div>
-                        <div class="project-links">
+                        <div class="project-links" style="margin-top: 15px;">
                             <a href="https://huggingface.co/Flamme-VRM/KazSTT" class="repo-link" target="_blank">huggingface</a>
                         </div>
                     </div>
@@ -566,60 +571,20 @@
                 <!-- Hidden projects that show on "See all" click -->
                 <div class="project-card hidden-project">
                     <div class="project-image">
-                        Screenshot: Weather Bot Interface
+                        <img src="images/YoutubeDownloader.jpg" alt="YoutubeDownloader Interface" style="width:100%;height:100%;object-fit:cover;">
                     </div>
                     <div class="project-content">
-                        <h3 class="project-title">Weather Bot</h3>
+                        <h3 class="project-title">🎥 YouTube Downloader</h3>
                         <p class="project-description">
-                            Python bot that provides detailed weather forecasts using OpenWeatherMap API with location support.
+                            A Python-based video downloader with a Tkinter GUI for easy video downloads
                         </p>
                         <div class="project-tech">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">API</span>
-                            <span class="tech-tag">Bot</span>
+                            <span class="tech-tag">🐍 Python</span>
+                            <span class="tech-tag">🖥️ Tkinter</span>
+                            <span class="tech-tag">💾 requests</span>
                         </div>
-                        <div class="project-links">
-                            <a href="https://github.com/Flamme-VRM" class="repo-link" target="_blank">git clone</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card hidden-project">
-                    <div class="project-image">
-                        Screenshot: Task Manager CLI
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Task Manager</h3>
-                        <p class="project-description">
-                            Simple command-line task management tool built with Python for organizing daily activities.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">CLI</span>
-                            <span class="tech-tag">SQLite</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/Flamme-VRM" class="repo-link" target="_blank">git clone</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card hidden-project">
-                    <div class="project-image">
-                        Screenshot: Data Visualization Dashboard
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Data Visualizer</h3>
-                        <p class="project-description">
-                            Interactive data visualization dashboard using matplotlib and pandas for CSV file analysis.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">Pandas</span>
-                            <span class="tech-tag">Matplotlib</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/Flamme-VRM" class="repo-link" target="_blank">git clone</a>
+                        <div class="project-links" style="margin-top: 15px;">
+                            <a href="https://github.com/Flamme-VRM/yt_downloader_GUI" class="repo-link" target="_blank">git clone</a>
                         </div>
                     </div>
                 </div>
@@ -629,13 +594,39 @@
         <section class="section">
             <h2 class="section-title">Professional Activities</h2>
             <div class="about-text">
-                <code>// TODO: Add achievements, competitions, and certifications</code><br>
-                Coming soon...
+                <p><strong>🏆 District Champion - Daryn National Competitive Programming Olympiad</strong></p>
+                <p><strong>🌍 AsylBilim International Startup - Co-founder & Technical Mentor</strong></p>
+                <p><strong>🤖 Robotics Olympiad Competitor (100+ participants)</strong></p>
+                <p><strong>👨‍💻 Cross-border Developer Mentorship (14-year-old Frontend Engineer)</strong></p>
+                <p><strong>📚 English Mentor (English proficiency - C1 level)</strong></p>
+                <p><strong>🏫 Academic Excellence in Core Subjects - 125 High School, Shymkent</strong></p>
+                <p><strong>🔬 Led IoT Research Team at Previous School (15th School)</strong></p>
             </div>
         </section>
     </div>
 
     <script>
+        // Audio functionality
+        function playNameAudio() {
+            const audio = new Audio('audio/name-audio.mp3');
+            const btn = document.querySelector('.audio-btn');
+            
+            btn.style.borderColor = '#00ff88';
+            btn.style.color = '#00ff88';
+            btn.textContent = '♪ playing...';
+            
+            audio.play().catch(e => {
+                console.log('Audio play failed:', e);
+                btn.textContent = '♪ audio not found';
+            });
+            
+            setTimeout(() => {
+                btn.style.borderColor = '';
+                btn.style.color = '';
+                btn.textContent = '♪ name.wav';
+            }, 2000);
+        }
+
         // Terminal typing animation
         const commands = [
             'python train_model.py --dataset kazakh_voice',
@@ -706,19 +697,6 @@
                         }, 150);
                     }
                 });
-            });
-
-            // Audio button functionality  
-            const audioBtn = document.querySelector('.audio-btn');
-            audioBtn.addEventListener('click', function() {
-                this.style.borderColor = '#00ff88';
-                this.style.color = '#00ff88';
-                this.textContent = '♪ playing...';
-                setTimeout(() => {
-                    this.style.borderColor = '';
-                    this.style.color = '';
-                    this.textContent = '♪ name.wav';
-                }, 2000);
             });
 
             // See all projects functionality

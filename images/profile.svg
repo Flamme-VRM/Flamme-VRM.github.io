@@ -1,0 +1,5 @@
+<svg width="220" height="220" xmlns="http://www.w3.org/2000/svg">
+  <rect width="220" height="220" fill="#2a2a2a" stroke="#00ff88" stroke-width="2"/>
+  <text x="110" y="100" text-anchor="middle" fill="#00ff88" font-family="JetBrains Mono" font-size="16">Profile</text>
+  <text x="110" y="120" text-anchor="middle" fill="#00ff88" font-family="JetBrains Mono" font-size="16">Image</text>
+</svg>
